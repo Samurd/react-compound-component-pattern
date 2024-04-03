@@ -3,7 +3,7 @@ import { Product } from '../interfaces/interfaces'
 
 const product1 = {
     id: 1,
-    title: "Coffe Mug",
+    title: "Coffe Mug - Card",
     img: coffe
   }
   

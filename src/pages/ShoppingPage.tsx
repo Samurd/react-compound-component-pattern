@@ -17,19 +17,15 @@ export function ShoppingPage() {
         <ProductCard
           key={product.id}
           product={product}
-          className="bg-dark"
           initialValues={{
             count: 4,
           }}
         >
           {({ reset }) => (
             <>
-              <ProductImage />
-              <ProductTitle className='text-white' />
-              <ProductButtons className='custom-btns' />
-
-
-              <button onClick={reset}>Reset</button>
+              <ProductImage/>
+              <ProductTitle/>
+              <ProductButtons/>
             </>
           )}
         </ProductCard>
